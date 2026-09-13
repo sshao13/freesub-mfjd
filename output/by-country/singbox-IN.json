@@ -4,8 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "shadowsocks",
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
+      "server": "139.84.166.47",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "GEdoeeqLZtkJRgSa"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
       "server": "65.2.178.161",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -17,7 +25,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
       "server": "194.61.31.126",
       "server_port": 2053,
       "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
@@ -36,27 +44,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
-      "server": "5.253.42.164",
-      "server_port": 40443,
-      "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
-          "short_id": "68a8"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
       "server": "vpn-in-001.fastervpn.world",
@@ -64,17 +51,9 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "127.0.0.1",
+        "server_name": "www.bing.com",
         "insecure": true
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
-      "server": "139.84.166.47",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "GEdoeeqLZtkJRgSa"
     },
     {
       "type": "selector",
@@ -84,8 +63,7 @@
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe",
-        "🇮🇳 印度 (India) 05 - xiaohe"
+        "🇮🇳 印度 (India) 04 - xiaohe"
       ]
     },
     {
@@ -95,8 +73,7 @@
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe",
-        "🇮🇳 印度 (India) 05 - xiaohe"
+        "🇮🇳 印度 (India) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
