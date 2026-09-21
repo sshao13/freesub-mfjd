@@ -4,12 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "trojan",
       "tag": "🇦🇹 奥地利 (Austria) 01 - xiaohe",
-      "server": "82.110.60.9",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "server": "212.183.88.136",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/assignment",
+        "headers": {
+          "Host": "www.calmlunch.com"
+        }
+      }
     },
     {
       "type": "vless",
@@ -33,12 +44,25 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
+      "server": "67.159.17.39",
+      "server_port": 30443,
+      "password": "1e6fed5b-5edc-4ddb-a268-79d7fae4365c",
+      "tls": {
+        "enabled": true,
+        "server_name": "filesconvert.org",
+        "insecure": true
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 02 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 02 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 03 - xiaohe"
       ]
     },
     {
@@ -46,7 +70,8 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 02 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 02 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
