@@ -4,24 +4,27 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
-  server: 64.177.90.30
-  port: 8388
+- name: 🇨🇿 捷克 (Czech) 01 - xiaohe
+  server: kayoor.hivaphone.ir
+  port: 2045
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: BWyPPTusFKhGgzKh
+  type: vless
+  uuid: d7e99010-e7c3-4978-9d30-2e63882dcfbe
+  network: h2
+  h2-opts:
+    host: []
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
 rules:
 - MATCH,PROXIES
