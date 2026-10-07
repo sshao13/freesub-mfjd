@@ -39,16 +39,17 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇪🇸 西班牙 (Spain) 05 - xiaohe
-  server: es4.h1cloud.net
-  port: 25047
+  server: 46.28.71.247
+  port: 443
   udp: true
   type: vless
-  uuid: 55a2940a-ae07-40b4-ab32-4d3e0617731f
+  uuid: 12c53e32-e589-47d6-b857-e4132294f767
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: opG0oNW-PMHi8V4E0101eEqOqPlZVKCuRkF6dcWeqBU
-    short-id: 8b7227d48365dda9
-  servername: www.apple.com
+    public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
+    short-id: 0dfc23fe80778c00
+  servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇪🇸 西班牙 (Spain) 06 - xiaohe
   server: 193.238.154.5
@@ -63,6 +64,18 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: cdn.v1.AssetService
+- name: 🇪🇸 西班牙 (Spain) 07 - xiaohe
+  server: es4.h1cloud.net
+  port: 25047
+  udp: true
+  type: vless
+  uuid: 55a2940a-ae07-40b4-ab32-4d3e0617731f
+  tls: true
+  reality-opts:
+    public-key: opG0oNW-PMHi8V4E0101eEqOqPlZVKCuRkF6dcWeqBU
+    short-id: 8b7227d48365dda9
+  servername: www.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -74,6 +87,7 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 04 - xiaohe
   - 🇪🇸 西班牙 (Spain) 05 - xiaohe
   - 🇪🇸 西班牙 (Spain) 06 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -85,5 +99,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 04 - xiaohe
   - 🇪🇸 西班牙 (Spain) 05 - xiaohe
   - 🇪🇸 西班牙 (Spain) 06 - xiaohe
+  - 🇪🇸 西班牙 (Spain) 07 - xiaohe
 rules:
 - MATCH,PROXIES

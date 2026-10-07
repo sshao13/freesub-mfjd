@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 138.124.58.39
+  server: 104.21.81.162
   port: 443
   udp: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 20836693-ea23-4f40-a1e7-48a6da897917
   tls: true
-  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  servername: netra-85a0ca.shoameni19.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
+    path: /vl/bluTTbb7MO8rvX1COEYH4WW4qzbr2aui
     headers:
-      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+      Host: netra-85a0ca.shoameni19.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
