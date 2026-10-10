@@ -17,7 +17,7 @@ proxies:
   servername: deepl.com
   client-fingerprint: chrome
 - name: 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
-  server: hydra.yokkastars.com
+  server: 5.253.28.240
   port: 2443
   udp: true
   type: vless
