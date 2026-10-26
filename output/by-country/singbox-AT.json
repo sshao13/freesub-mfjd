@@ -14,6 +14,29 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 02 - xiaohe",
+      "server": "152.53.1.40",
+      "server_port": 8443,
+      "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
+      "tls": {
+        "enabled": true,
+        "server_name": "au4.pad-sservice.lat",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/A14U",
+        "headers": {
+          "Host": "au4.pad-service.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
       "server": "au7.pad-sservice.lat",
       "server_port": 8443,
       "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
@@ -39,7 +62,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
+      "tag": "🇦🇹 奥地利 (Austria) 04 - xiaohe",
       "server": "62.83.41.69",
       "server_port": 8443,
       "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
@@ -58,24 +81,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 04 - xiaohe",
-      "server": "152.53.1.40",
+      "tag": "🇦🇹 奥地利 (Austria) 05 - xiaohe",
+      "server": "62.83.19.127",
       "server_port": 8443,
       "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
       "tls": {
         "enabled": true,
-        "server_name": "au4.pad-sservice.lat",
+        "server_name": "au5.pad-sservice.lat",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/A14U",
+        "path": "/AU5W",
         "headers": {
-          "Host": "au4.pad-service.com"
+          "Host": "au5.pad-sservice.lat"
         }
       }
     },
@@ -87,7 +110,8 @@
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
         "🇦🇹 奥地利 (Austria) 02 - xiaohe",
         "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 04 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 04 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 05 - xiaohe"
       ]
     },
     {
@@ -97,7 +121,8 @@
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
         "🇦🇹 奥地利 (Austria) 02 - xiaohe",
         "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 04 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 04 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
