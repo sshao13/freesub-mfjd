@@ -13,7 +13,7 @@ proxies:
   tls: true
   servername: 45-149-147-213.sslip.io
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: safari
   network: grpc
   grpc-opts:
     grpc-service-name: kobedin-server1-vless
@@ -60,7 +60,6 @@ proxies:
   tls: true
   servername: hw3.divarkhaghazi.com.
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
