@@ -20,16 +20,13 @@
     {
       "type": "hysteria2",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-      "server": "forshynewh.duckdns.org",
+      "server": "217.60.73.56",
       "server_port": 443,
       "password": "69e41e64-a832-471a-b740-94577ca85520",
       "tls": {
         "enabled": true,
         "server_name": "forshynewh.duckdns.org",
-        "insecure": false,
-        "alpn": [
-          "h3"
-        ]
+        "insecure": true
       }
     },
     {
@@ -39,7 +36,8 @@
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/"
       }
     },
     {
