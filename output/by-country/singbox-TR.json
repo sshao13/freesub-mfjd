@@ -56,7 +56,11 @@
       "tls": {
         "enabled": true,
         "server_name": "hk.catxstar.com",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
